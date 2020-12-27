@@ -73,7 +73,7 @@
 					<td><?php echo $result['price'] ?></td>
 					<td><img src="uploads/<?php echo $result['image'] ?>" width="80"></td>
 					<td><?php echo $result['catName'] ?></td>
-					<td><?php echo $result['brandName'] ?></td>
+					<td><?php echo $result['catName'] ?></td>
 					
 					<td><?php 
 						if($result['type']==0){
